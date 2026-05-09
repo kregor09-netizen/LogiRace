@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mars-terminal">
+        <div class="cam-info">REC 👁️ <span id="cam-name">CAM 01</span></div>
+        <div id="screen" class="camera-screen"></div>
+        <div class="ui-panel">
+            <p>Кисень: <span id="O2-level">100</span>%</p>
+            <div class="controls">
+                <button class="btn-cam" data-cam="0">CAM 01</button>
+                <button class="btn-cam" data-cam="1">CAM 02</button>
+                <button class="btn-cam" data-cam="2">CAM 03</button>
+                <br><br>
+                <button id="btn-vision">НІЧНЕ БАЧЕННЯ</button>
+                <button id="btn-refill">ПОПОВНИТИ КИСЕНЬ</button>
+            </div>
+        </div>
+        <div id="alert-msg">СИСТЕМИ В НОРМІ</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
